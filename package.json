@@ -1,0 +1,40 @@
+{
+  "name": "@oinio/soul-sdk",
+  "version": "0.0.1",
+  "description": "The conscience layer for decentralized agents. Defines SoulInput and SoulResult protocols for intent alignment.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "example": "tsx examples/agent-guard.ts",
+    "dev": "tsx"
+  },
+  "keywords": [
+    "soul",
+    "alignment",
+    "ai",
+    "agent",
+    "conscience",
+    "intent",
+    "resonance",
+    "oinio"
+  ],
+  "author": "OINIO",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oinio/oinio-soul-sdk"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.3.3"
+  }
+}
