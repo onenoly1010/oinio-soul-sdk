@@ -34,6 +34,16 @@ if (!result.approved) {
 npm install @oinio/soul-sdk
 ```
 
+## API (Live)
+
+Test the Sovereign Oracle directly:
+
+```bash
+curl -X POST https://oinio-soul-proxy.onenoly1010.workers.dev \
+  -H "Content-Type: application/json" \
+  -d '{"intent": "Build a sustainable yield optimizer", "actor": "Your-Agent"}'
+```
+
 ---
 
 ## Quick Start
